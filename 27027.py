@@ -1,17 +1,17 @@
-hav,ss=map(int,input().split())
+hav,sss=map(int,input().split())
 zzzz=list(map(int,input().split()))
 tpv=list(map(int,input().split()))
-tan=[]
-cin=0
+aan=[]
+pin=0
 for i in range(hav):
     x=tspv[i]/zzzz[i]
-    tan.append(x)
-while ss>=0 and len(tan)>0:
-    mindex=tan.index(max(tan))
-    if ss>=zzzz[mindex]:
-        cin=cin+tspv[mindex]
-        ss=ss-zzzz[mindex]
+    aan.append(x)
+while sss>=0 and len(aan)>0:
+    mindex=aan.index(max(aan))
+    if sss>=zzzz[mindex]:
+        pin=pin+tspv[mindex]
+        sss=sss-zzzz[mindex]
     zzzz.pop(mindex)
     tspv.pop(mindex)
-    tan.pop(mindex)
-print(cin)
+    aan.pop(mindex)
+print(pin)
