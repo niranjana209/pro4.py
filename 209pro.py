@@ -6,7 +6,7 @@ while zen<90 and zen<ccc:
   son=0
   for j in str(ccc-zen):
     son+=int(j)
-  if s+(ccc-zen)==ccc:
+  if son+(ccc-zen)==ccc:
     xon+=1
     bhoo.append(ccc-zen)
   zen+=1
